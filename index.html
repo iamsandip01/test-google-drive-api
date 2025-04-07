@@ -31,7 +31,7 @@
                 const img = document.createElement("img");
                 img.src = `https://drive.google.com/uc?id=${file.id}`; // Direct link to file content
                 //https://drive.google.com/drive/folders/18gtd1LcAYOLt1SHwVggd3bbOeyur2eZo?usp=drive_link
-                img.alt = file.name;
+                img.alt = img.src;
                 img.style.width = "200px"; // Optional: Image size
                 container.appendChild(img);
             });
